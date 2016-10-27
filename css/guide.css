@@ -1,0 +1,28 @@
+.clear:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+.abuimg img{width:100%;}
+.abuimg h2{font-size:42px;}
+.abuimg .clear{float:left;}
+.abuimg .clear a{color:#333;font-size:14px;}
+.abuimg .clear a:hover{color:#02adc6}
+.abuimg .clear .now{color:#02adc6;}
+.abuimg .clear li{
+    margin-right: 10px;line-height:40px;}
+.abuimg{box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.32);
+}
+
+.abmain{padding:10% 0px;}
+.abmain ul{float:left;width:100%;}
+.abmain ul li{float:left;width:23%;margin-right:2%;}
+.abmain ul li .img{overflow:hidden;}
+.abmain ul li img{transition: all 0.5s;width:100%;}
+.abmain .txt{text-align:center;}
+.abmain .txt h2{background:#F4F4F4;height:50px;line-height:50px;font-size:18px;transition: all 0.5s;}
+
+.abmain li:hover h2{background:#333;color:#fff;}
+.abmain li:hover img{transform:scale(1.25);}

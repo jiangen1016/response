@@ -1,0 +1,32 @@
+
+
+.list dl{
+    cursor:pointer;
+    color: #ffffff;
+    width: 25%;
+    float: left;}
+.list dl dt{
+    background:#02adc6;
+    padding: 15px 20px;font-size:22px;font-weight:bold;}
+.list dl dd{padding:18px 15px 18px 22px;font-size:16px;font-weight:bold;border-bottom:1px solid #CCC;background:#737c92;}
+
+.list{padding:10% 0;}
+.list .txt{width:70%;float:right;}
+.list .txt img{float:left;}
+.list .txt p{font-size:12px;margin-bottom:20px;}
+.list dl .bgcolor{background:#525866;transition: all 1s}
+
+.list .txt form{border:1px solid #ccc;}
+.list .txt  form .title{padding:17px 15px;background:#f5f5f5;border-bottom:1px solid #ccc;}
+.list .txt  form .title .submit{background:#337ab7;padding:10px 10px;border:1px solid #337ab7;color:#fff;border-radius:5px;}
+.list .txt  form .item{padding:20px 0px;border-bottom:1px solid #ccc;width:100%;}
+.list .txt  form .item span{width:20%;float:left;margin-left: 30px;}
+.list .txt  form .item input{float:left;padding:5px;border-radius:5px;border:1px solid #ccc;}
+.list .txt  form .item textarea{padding:5px;width:40%;}
+
+@media screen and (max-width:980px){
+    .abuimg h2{font-size:25px;}
+    .list .txt img{width:100%;}
+    .inner dl dd{font-size:12px;}
+    .inner dl dt{font-size:16px;}
+}
